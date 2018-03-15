@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.parth.truckpool">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Splashscreen"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:windowSoftInputMode="adjustPan"
+            android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden" />
+        <activity
+            android:windowSoftInputMode="adjustPan"
+            android:name=".UserAreaActivity" />
+        <activity
+            android:windowSoftInputMode="adjustPan"
+            android:name=".CreateTripActivity" />
+        <activity
+            android:windowSoftInputMode="adjustPan"
+            android:name=".RequestTripActivity" />
+        <activity android:name=".RequestListActivity" />
+        <activity
+            android:windowSoftInputMode="adjustPan"
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2">
+        </activity>
+        <activity
+            android:windowSoftInputMode="adjustPan"
+            android:name=".UserAdminTabbed"
+            android:label="@string/title_activity_user_admin_tabbed"
+            android:theme="@style/Theme_pumpkin">
+        </activity>
+        <activity
+            android:windowSoftInputMode="adjustPan"
+            android:name=".TabbedUser"
+            android:label="@string/title_activity_tabbed_user"
+            android:theme="@style/Theme_pumpkin">
+        </activity>
+        <activity android:name=".PassActivity">
+        </activity>
+        <activity
+            android:windowSoftInputMode="adjustPan"
+            android:name=".StatusUpdateActivity">
+        </activity>
+        <activity
+            android:name=".SlideActivity"
+            android:theme="@style/Theme_Slide">
+        </activity>
+        <activity
+            android:windowSoftInputMode="adjustPan"
+            android:name=".DetailsActivity">
+        </activity>
+        <activity
+            android:windowSoftInputMode="adjustPan"
+            android:name=".UsertripInfo">
+        </activity>
+    </application>
+
+</manifest>

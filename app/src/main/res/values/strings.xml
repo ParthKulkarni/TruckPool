@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">TruckPool</string>
+
+    <string-array name="choice">
+        <item>User Type</item>
+        <item>Agency</item>
+        <item>Customer</item>
+    </string-array>
+
+    <string-array name="truck_type">
+        <item>Truck Type</item>
+        <item>Light duty</item>
+        <item>Medium duty</item>
+        <item>Heavy duty</item>
+        <item>Pickup</item>
+        <item>Refrigerator</item>
+    </string-array>
+
+    <string-array name="fromcities">
+        <item>From City</item>
+        <item>Pune</item>
+        <item>Nashik</item>
+        <item>Mumbai</item>
+        <item>Chennai</item>
+        <item>Bengaluru</item>
+        <item>Ahmedabad</item>
+        <item>Hyderabad</item>
+        <item>Kolkata</item>
+        <item>Delhi</item>
+        <item>Jaipur</item>
+        <item>Indore</item>
+        <item>Bhopal</item>
+        <item>Surat</item>
+        <item>Patna</item>
+    </string-array>
+
+    <string-array name="tocities">
+        <item>To City</item>
+        <item>Pune</item>
+        <item>Nashik</item>
+        <item>Mumbai</item>
+        <item>Chennai</item>
+        <item>Bengaluru</item>
+        <item>Ahmedabad</item>
+        <item>Hyderabad</item>
+        <item>Kolkata</item>
+        <item>Delhi</item>
+        <item>Jaipur</item>
+        <item>Indore</item>
+        <item>Bhopal</item>
+        <item>Surat</item>
+        <item>Patna</item>
+    </string-array>
+
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_user_admin_tabbed">UserAdminTabbed</string>
+    <string name="title_activity_user_tabbed">UserTabbed</string>
+    <string name="title_activity_tabbed_user">TabbedUser</string>
+</resources>

@@ -1,0 +1,44 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <item name="colorAccent">@color/Pumpkin</item>
+        <item name="android:windowBackground">?android:attr/colorBackground</item>
+        <item name="android:colorBackground">@color/background_material_dark</item>
+        <item name="android:colorButtonNormal">@color/cardview_dark_background</item>
+        <item name="colorPrimary">@android:color/holo_green_dark</item>
+        <item name="android:statusBarColor">@color/DarkGreen</item>
+        <!-- Customize your theme here. -->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@android:color/holo_blue_light</item> -->
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@color/DarkGreen</item>
+    </style>
+
+    <style name="Theme_pumpkin" parent="AppTheme">
+        <item name="colorAccent">@color/Pumpkin</item>
+        <item name="android:windowBackground">?android:attr/colorBackground</item>
+        <item name="android:colorBackground">@color/background_material_dark</item>
+        <item name="android:colorButtonNormal">@color/cardview_dark_background</item>
+        <item name="colorPrimary">@android:color/holo_green_dark</item>
+        <item name="android:statusBarColor">@color/DarkGreen</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+    <style name="Theme_Slide" parent="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme_pumpkin.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme_pumpkin.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
